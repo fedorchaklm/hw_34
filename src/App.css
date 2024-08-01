@@ -1,0 +1,28 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  height: 50px;
+  border: 2px solid #9d97ec;
+  border-radius: 12px;
+  color: #9d97ec;
+}
+
+form {
+  display: flex;
+  gap: 20px;
+}
+
+input {
+  outline: none;
+  border: 2px solid #9d97ec;
+  padding: 0.6em 1.2em;
+}
